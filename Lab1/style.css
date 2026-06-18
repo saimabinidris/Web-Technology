@@ -1,0 +1,72 @@
+*{}
+body{}
+table,th,td{
+    border: 1px solid;
+}
+table{
+    width: 620px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+table tr{
+}
+form table,form th,form td{
+    border: none;
+}
+table tr th{
+    background: #2659ae;
+    color: white;
+    font-weight: 100;
+    text-align: left;
+    padding-left: 10px;
+}
+table tr td{background: #e4f3fa;padding-left: 10px;}
+form{
+    background: lightgreen;
+    width: 500px;
+    text-align: center;
+    border-radius: 25px;
+    padding: 39px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+form h2{}
+form table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+form table tr{
+    border: none;
+}
+form table tr td{
+    background-color: transparent;
+}
+.submitBtn{
+    width: 150px;
+    height: 36px;
+    background: white;
+    border: none;
+}
+input{
+    border: none;
+    width: 100%;
+    padding: 5px;
+    margin: 2px;
+}
+textarea{
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    margin: 2px;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+.container h1{
+    text-align: center;
+}
