@@ -1,0 +1,19 @@
+form{
+    background-color: rgb(74, 54, 230);
+    border-color: blue;
+    border-radius: 10px;
+}
+section{
+    text-align: center;
+}
+button{
+    background-color: rgb(101, 101, 233);
+    
+    
+}
+.container{
+    border-color: blue;
+     margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
