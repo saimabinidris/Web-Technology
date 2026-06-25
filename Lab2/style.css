@@ -17,3 +17,13 @@ button{
     margin-right: auto;
     width: 800px;
 }
+legend{
+    
+    color: antiquewhite;
+    background-color: rgb(98, 98, 200);
+    border-radius: 10px;
+}
+fieldset{
+    border-color: rgb(119, 119, 207);
+    border-radius: 10px;
+}
