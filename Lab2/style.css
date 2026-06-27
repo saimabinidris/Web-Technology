@@ -15,15 +15,26 @@ button{
     border-color: blue;
      margin-left: auto;
     margin-right: auto;
-    width: 800px;
+    width: 400px;
+}
+legend h2{
+    margin:0px;
 }
 legend{
+    width: auto;
     
     color: antiquewhite;
     background-color: rgb(98, 98, 200);
     border-radius: 10px;
 }
 fieldset{
+    
     border-color: rgb(119, 119, 207);
     border-radius: 10px;
+}
+.clrbtn{
+   background-color: white;
+}
+.sbmtbtn{
+     border-radius: 10px;
 }
