@@ -40,7 +40,7 @@ function registration() {
   if (!email) {
     document.getElementById("emailError").innerHTML = "Email is a required field";
     hasEmailError = true;
-  } else if (!email.includes("@")) {
+  } else if (!email.includes("@student.aiub.edu")) {
     document.getElementById("emailError").innerHTML = "Please provide a valid email address";
     hasEmailError = true;
   } else {
