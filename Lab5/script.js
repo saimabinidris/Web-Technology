@@ -1,9 +1,9 @@
 function registration() {
-  const fname = document.getElementById("firstName").value.trim();
-  const lname = document.getElementById("lastName").value.trim();
-  const studentID = document.getElementById("studentID").value.trim();
-  const email = document.getElementById("email").value.trim();
-  const credit = document.getElementById("credit").value.trim();
+  const fname = document.getElementById("firstName").value;
+  const lname = document.getElementById("lastName").value;
+  const studentID = document.getElementById("studentID").value;
+  const email = document.getElementById("email").value;
+  const credit = document.getElementById("credit").value;
   const department = document.getElementById("department").value;
 
   let hasfNameError = false;
