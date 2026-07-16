@@ -1,10 +1,14 @@
 <html>
   <head>
+    <link rel="stylesheet" href="./style.css">
     <script src="script.js"></script>
   </head>
+   <fieldset>
+            
+        <legend> <h2>Registration Form</h2></legend>
   <body>
-    <h1>Student Registration</h1>
-    <form onsubmit="return validateForm()">
+    
+    <form onsubmit="return registration();">
         <table>
             <tr>
                 <td>First Name:</td>
@@ -61,10 +65,11 @@
             <th>Last Name</th>
             <th>Student ID</th>
             <th>Email</th>
-            <th>Credit</th>
+            <th>Credit Completed</th>
             <th>Department</th>
         </tr>
     </table>
+</fieldset>
     
     </form>
   </body>

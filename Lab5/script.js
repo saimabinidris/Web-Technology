@@ -1,6 +1,6 @@
 let totalCount=0;
 
-function validateForm() {
+function registration() {
   const fname = document.getElementById("fname").value;
   const lname = document.getElementById("lname").value;
   const studentID = document.getElementById("studentID").value;
@@ -89,3 +89,34 @@ function validateForm() {
   }
   return false;
 }
+// Get values
+var firstName = document.getElementById("firstName").value;
+var lastName = document.getElementById("lastName").value;
+var studentID = document.getElementById("studentID").value;
+var email = document.getElementById("email").value;
+var credit = document.getElementById("credit").value;
+var department = document.getElementById("Department").value;
+
+var table = document.getElementById("studentTable");
+
+
+var row = table.insertRow(-1);
+
+
+row.insertCell(0).innerHTML = firstName;
+row.insertCell(1).innerHTML = lastName;
+row.insertCell(2).innerHTML = studentID;
+row.insertCell(3).innerHTML = email;
+row.insertCell(4).innerHTML = credit;
+row.insertCell(5).innerHTML = department;
+
+
+document.getElementById("firstName").value = "";
+document.getElementById("lastName").value = "";
+document.getElementById("studentID").value = "";
+document.getElementById("email").value = "";
+document.getElementById("credit").value = "";
+document.getElementById("Department").value = "";
+
+
+return false;
